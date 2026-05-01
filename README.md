@@ -9,4 +9,4 @@ Pages:
 - `support.html` - support page
 - `styles.css` - shared styling
 
-Before App Store submission, replace `support@example.com` with the real support email.
+Support email: `kahlilgodmor@gmail.com`.
