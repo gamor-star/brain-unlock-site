@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="BrainUnlock support page for families and App Store review."
+      content="BrainUnlock support for setup, Screen Time permissions, protected apps, access code help, and privacy questions."
     />
     <title>Support | BrainUnlock</title>
     <link rel="stylesheet" href="styles.css" />
@@ -23,32 +23,75 @@
     </header>
 
     <main class="policy">
-      <p class="updated">BrainUnlock Support</p>
-      <h1>How can we help?</h1>
+      <p class="updated">Support</p>
+      <h1>BrainUnlock Support</h1>
       <p>
-        BrainUnlock is currently preparing for TestFlight and App Store release.
-        If you need help with setup, Screen Time permission, protected apps, PIN
-        access, or privacy questions, contact support.
+        Need help setting up BrainUnlock, choosing protected apps, using Screen
+        Time permissions, or understanding how app access works? We are here to
+        help.
       </p>
 
       <h2>Contact</h2>
       <p>
         Email:
-        <a href="mailto:kahlilgodmor@gmail.com">kahlilgodmor@gmail.com</a>
+        <a href="mailto:support@brainunlock.app">support@brainunlock.app</a>
       </p>
-      <h2>Common setup notes</h2>
+      <p>
+        Please include your iPhone model, iOS version, and a short description
+        of what happened. If the issue involves protected apps, include whether
+        you selected individual apps or an app category in Apple's Screen Time
+        picker.
+      </p>
+
+      <h2>Setup help</h2>
       <ul>
-        <li>BrainUnlock requires Apple Screen Time / FamilyControls permission for app shielding.</li>
-        <li>Protected apps must be selected through Apple&apos;s Screen Time picker.</li>
-        <li>Screen Time shielding only works on a real iPhone, not the iOS Simulator.</li>
-        <li>If a protected app remains blocked, check whether Apple Screen Time restrictions are also enabled outside BrainUnlock.</li>
-        <li>The parent access PIN may survive reinstall on the same device because iOS SecureStore is Keychain-backed.</li>
+        <li>Create an access code during onboarding so the app settings stay protected.</li>
+        <li>Allow Apple's Screen Time / FamilyControls permission when prompted.</li>
+        <li>Select the apps or categories you want BrainUnlock to protect.</li>
+        <li>Choose your challenge rules and unlock duration in Controls.</li>
+        <li>Use Lock Down from the app when you want protected apps shielded again.</li>
       </ul>
 
-      <h2>Privacy</h2>
+      <h2>Screen Time notes</h2>
       <p>
-        Read the <a href="privacy.html">Privacy Policy</a> for details about local
-        storage, Screen Time permissions, and data minimization.
+        BrainUnlock relies on Apple's Screen Time and FamilyControls APIs. App
+        shielding works on real iPhones with Screen Time authorization. Some
+        behavior, including how quickly a shield appears over an app that is
+        already open, may depend on iOS.
+      </p>
+      <ul>
+        <li>If a protected app does not shield, reopen BrainUnlock and check Screen Time status in Controls.</li>
+        <li>If access does not open, confirm at least one protected app or category is selected.</li>
+        <li>If a protected app remains blocked, check whether separate Apple Screen Time restrictions are enabled outside BrainUnlock.</li>
+        <li>Screen Time shielding is not expected to work in the iOS Simulator.</li>
+      </ul>
+
+      <h2>Access code help</h2>
+      <p>
+        BrainUnlock stores the access code securely on the device. The access
+        code may survive app deletion and reinstall because iOS secure storage
+        can be Keychain-backed. If you need help with access-code recovery or
+        resetting the app, contact support.
+      </p>
+
+      <h2>Privacy and data</h2>
+      <p>
+        BrainUnlock is local-first in the current version. There are no accounts,
+        ads, third-party analytics SDKs, or backend servers. Challenge summaries,
+        settings, access-code security data, and Screen Time selection tokens are
+        stored locally to operate the app.
+      </p>
+      <ul>
+        <li>Read the <a href="privacy.html">Privacy Policy</a>.</li>
+        <li>BrainUnlock does not sell or share personal data.</li>
+        <li>BrainUnlock does not use cross-app tracking or advertising identifiers.</li>
+      </ul>
+
+      <h2>App Store review contact</h2>
+      <p>
+        App Review can use this page as the Support URL for BrainUnlock. For
+        review questions, contact
+        <a href="mailto:support@brainunlock.app">support@brainunlock.app</a>.
       </p>
     </main>
 

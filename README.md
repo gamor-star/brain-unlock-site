@@ -9,4 +9,4 @@ Pages:
 - `support.html` - support page
 - `styles.css` - shared styling
 
-Support email: `kahlilgodmor@gmail.com`.
+Support email: `support@brainunlock.app`.
