@@ -2,156 +2,278 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#FBFAF7" />
     <meta
       name="description"
-      content="Brain Unlock helps families create a smarter pause before protected apps open, using short thinking challenges, puzzles, and Apple Screen Time."
+      content="Brain Unlock protects the apps you choose with Apple Screen Time, then opens access after a short thinking check or puzzle. Local-first. No ads. No tracking."
     />
     <link rel="canonical" href="https://www.brainunlock.app/" />
+    <link rel="icon" href="assets/app-icon.png" />
+    <link rel="apple-touch-icon" href="assets/app-icon.png" />
     <meta property="og:title" content="Brain Unlock | A smarter pause before apps open" />
     <meta
       property="og:description"
-      content="Protected apps, short thinking challenges, puzzle gates, and privacy-first Screen Time controls for iPhone."
+      content="Protect apps with Apple Screen Time, then earn access with a short thinking check or puzzle. Local-first, private, ad-free."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.brainunlock.app/" />
+    <meta property="og:image" content="https://www.brainunlock.app/assets/app-icon.png" />
     <title>Brain Unlock | A smarter pause before apps open</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand-lockup" href="https://www.brainunlock.app/" aria-label="Brain Unlock home">
-        <span class="logo-mark" aria-hidden="true">BU</span>
-        <span>Brain Unlock</span>
+    <header class="nav">
+      <a class="brand" href="https://www.brainunlock.app/" aria-label="Brain Unlock home">
+        <img class="brand-icon" src="assets/app-icon.png" alt="" width="34" height="34" />
+        <span class="brand-name">Brain&nbsp;Unlock</span>
       </a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="https://www.brainunlock.app/privacy.html">Privacy</a>
-        <a href="https://www.brainunlock.app/support.html">Support</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#how">How it works</a>
+        <a href="#challenges">Challenges</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
       </nav>
     </header>
 
     <main>
+      <!-- ───────────────────────── Hero ───────────────────────── -->
       <section class="hero">
-        <div class="hero-copy-block">
-          <span class="eyebrow">Screen Time controls meet thinking challenges</span>
-          <h1>A smarter pause before apps open.</h1>
-          <p class="hero-copy">
-            Brain Unlock protects selected apps behind quick cognitive challenges.
-            Solve a thinking check or puzzle, open access for a limited window, then
-            let protection return automatically.
-          </p>
-          <div class="cta-row">
-            <a class="button primary" href="https://www.brainunlock.app/support.html">Get setup help</a>
-            <a class="button secondary" href="https://www.brainunlock.app/privacy.html">Read privacy policy</a>
-          </div>
-          <div class="trust-row" aria-label="Product highlights">
-            <span>Apple Screen Time APIs</span>
-            <span>Local-first design</span>
-            <span>No ads or tracking</span>
-          </div>
-        </div>
-
-        <div class="hero-visual" aria-label="Brain Unlock premium product visual">
-          <img src="assets/brainunlock-hero.png" alt="Abstract Brain Unlock app visual showing protected access, puzzle paths, and lock controls" />
-          <div class="floating-card top-card">
-            <span class="mini-label">Protected apps</span>
-            <strong>Shielded until a challenge is solved</strong>
-          </div>
-          <div class="floating-card bottom-card">
-            <span class="mini-label">Access window</span>
-            <strong>Unlocks are temporary by design</strong>
-          </div>
-        </div>
-      </section>
-
-      <section class="section split-section">
-        <div class="section-header sticky-copy">
-          <span class="eyebrow subtle">How it works</span>
-          <h2>One clean loop: protect, solve, unlock, relock.</h2>
-          <p>
-            The app is built around a simple, predictable flow so setup feels
-            understandable and daily use feels intentional instead of chaotic.
-          </p>
-        </div>
-        <div class="steps">
-          <article class="step-card">
-            <span>01</span>
-            <h3>Choose protected apps</h3>
-            <p>Select individual apps or categories with Apple's Screen Time picker.</p>
-          </article>
-          <article class="step-card">
-            <span>02</span>
-            <h3>Complete a challenge</h3>
-            <p>Use short thinking checks, memory, pattern, and path puzzles.</p>
-          </article>
-          <article class="step-card">
-            <span>03</span>
-            <h3>Access opens</h3>
-            <p>Protected apps become available for the window configured in Controls.</p>
-          </article>
-          <article class="step-card">
-            <span>04</span>
-            <h3>Protection returns</h3>
-            <p>When the session ends, Brain Unlock restores app shields.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-header centered">
-          <span class="eyebrow subtle">Challenge system</span>
-          <h2>Useful friction, not busywork.</h2>
-          <p>
-            Brain Unlock keeps challenges short and varied so the app stays
-            focused on better habits, learning moments, and reliable access control.
-          </p>
-        </div>
-        <div class="feature-grid">
-          <article class="feature-card amber">
-            <div class="card-icon">01</div>
-            <h3>Thinking Check</h3>
-            <p>Math, reading, logic, and critical-thinking prompts with difficulty controls.</p>
-          </article>
-          <article class="feature-card blue">
-            <div class="card-icon">02</div>
-            <h3>Puzzle gates</h3>
-            <p>Pattern, Pathfinder, and memory-style challenges add variety without turning into endless play.</p>
-          </article>
-          <article class="feature-card green">
-            <div class="card-icon">03</div>
-            <h3>Local analytics</h3>
-            <p>Helpful summaries show where mistakes happen while keeping data on the device.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section privacy-band">
-        <div class="privacy-band-inner">
-          <div>
-            <span class="eyebrow subtle">Privacy and trust</span>
-            <h2>Built for iPhone, built to stay quiet.</h2>
-            <p>
-              Brain Unlock is local-first. There are no accounts, ads, backend
-              behavior tracking, or data broker integrations in the current app.
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow"><span class="eyebrow-dot"></span> iPhone&nbsp;·&nbsp;Apple Screen&nbsp;Time</span>
+            <h1>A smarter pause<br />before apps open.</h1>
+            <p class="lede">
+              Brain Unlock protects the apps you choose with Apple Screen Time, then opens
+              access after a short thinking check or puzzle — and quietly locks them again
+              when the time is up.
             </p>
+            <div class="cta-row">
+              <span class="btn btn-primary btn-soon">
+                Coming to the App&nbsp;Store
+                <em class="soon-tag">Soon</em>
+              </span>
+              <a class="btn btn-ghost" href="privacy.html">Privacy &amp; data</a>
+            </div>
+            <ul class="chips" aria-label="At a glance">
+              <li>Apple Screen Time</li>
+              <li>Local-first</li>
+              <li>No ads</li>
+              <li>No tracking</li>
+            </ul>
           </div>
-          <ul class="check-list">
-            <li>No advertising or cross-app tracking</li>
-            <li>No child name, location, contacts, photos, or browsing history collected</li>
-            <li>Settings and challenge summaries stay on device</li>
-            <li>Apple Screen Time tokens are stored locally to operate shielding</li>
+
+          <!-- Layered iPhone mockups recreating the actual app UI -->
+          <div class="hero-stage reveal" style="--d: 140ms" aria-label="Brain Unlock app preview">
+            <!-- Back phone: the shield / protected screen -->
+            <div class="phone phone-back" aria-hidden="true">
+              <div class="screen screen-shield">
+                <div class="shield-glyph">
+                  <svg viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9.5 12l1.8 1.8L15 10"/></svg>
+                </div>
+                <p class="shield-title">Protected</p>
+                <p class="shield-sub">Finish a quick challenge in Brain Unlock to open this app.</p>
+                <span class="shield-btn">Got it</span>
+              </div>
+            </div>
+
+            <!-- Front phone: the Thinking Check -->
+            <div class="phone phone-front">
+              <div class="screen screen-check">
+                <div class="check-top">
+                  <span class="check-eyebrow">Thinking Check</span>
+                  <span class="check-progress">2 / 5</span>
+                </div>
+                <div class="check-bar"><span></span></div>
+                <div class="tag-row">
+                  <span class="tag tag-cat">Math</span>
+                  <span class="tag">Multiply</span>
+                </div>
+                <div class="q-card">
+                  <span class="q-label">Question</span>
+                  <p class="q-text">What is 7 × 8?</p>
+                </div>
+                <div class="answers">
+                  <button class="ans" type="button" tabindex="-1"><span class="bub">A</span> 54</button>
+                  <button class="ans ans-correct" type="button" tabindex="-1"><span class="bub">B</span> 56</button>
+                  <button class="ans" type="button" tabindex="-1"><span class="bub">C</span> 49</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─────────────────────── How it works ─────────────────── -->
+      <section class="section" id="how">
+        <div class="section-head">
+          <span class="kicker">How it works</span>
+          <h2>One calm loop: protect, solve, open, relock.</h2>
+          <p>A predictable rhythm — so setup is obvious and everyday use feels intentional, never random.</p>
+        </div>
+        <ol class="flow">
+          <li class="flow-step reveal">
+            <span class="flow-ix">01</span>
+            <span class="flow-ic" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2.5"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+            </span>
+            <h3>Protect apps</h3>
+            <p>Pick individual apps or whole categories with Apple's Screen Time picker.</p>
+          </li>
+          <li class="flow-step reveal" style="--d: 80ms">
+            <span class="flow-ix">02</span>
+            <span class="flow-ic" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a3 3 0 0 1 3 3h2a2 2 0 0 1 2 2v2a3 3 0 0 1 0 6v2a2 2 0 0 1-2 2h-2a3 3 0 0 0-6 0H7a2 2 0 0 1-2-2v-2a3 3 0 0 1 0-6V8a2 2 0 0 1 2-2h2a3 3 0 0 1 3-3z"/></svg>
+            </span>
+            <h3>Solve a challenge</h3>
+            <p>A short thinking check or puzzle — quick, varied, and worth a moment.</p>
+          </li>
+          <li class="flow-step reveal" style="--d: 160ms">
+            <span class="flow-ix">03</span>
+            <span class="flow-ic" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2.5"/><path d="M8 11V8a4 4 0 0 1 7-2.6"/></svg>
+            </span>
+            <h3>Access opens</h3>
+            <p>Protected apps unlock for the window you set in Controls.</p>
+          </li>
+          <li class="flow-step reveal" style="--d: 240ms">
+            <span class="flow-ix">04</span>
+            <span class="flow-ic" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M12 8v4l2.5 1.5"/></svg>
+            </span>
+            <h3>Protection returns</h3>
+            <p>When the session ends, Brain Unlock restores the shields automatically.</p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- ─────────────────────── Challenges ───────────────────── -->
+      <section class="section section-soft" id="challenges">
+        <div class="section-head">
+          <span class="kicker">The challenges</span>
+          <h2>Useful friction — not busywork.</h2>
+          <p>Four kinds of short challenge keep the pause meaningful and the access honest.</p>
+        </div>
+        <div class="challenge-grid">
+          <article class="ch-card reveal">
+            <div class="ch-art ch-art-think" aria-hidden="true">
+              <span class="ch-pill">7 × 8 = ?</span>
+              <div class="ch-dots"><i></i><i class="on"></i><i></i></div>
+            </div>
+            <h3>Thinking Check</h3>
+            <p>Math, reading, logic and critical-thinking prompts. 1,000+ questions, difficulty you control.</p>
+          </article>
+
+          <article class="ch-card reveal" style="--d: 80ms">
+            <div class="ch-art ch-art-pattern" aria-hidden="true">
+              <span class="setcard"><svg viewBox="0 0 24 24" fill="#4F46E5"><path d="M12 3l7 9-7 9-7-9z"/></svg></span>
+              <span class="setcard"><svg viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2"><ellipse cx="12" cy="12" rx="6" ry="9"/></svg></span>
+              <span class="setcard"><svg viewBox="0 0 24 24" fill="#F59E0B"><path d="M16 4a8 8 0 1 0 0 16 6 6 0 0 1 0-16z"/></svg></span>
+            </div>
+            <h3>Pattern</h3>
+            <p>Spot the matching set by shape, color, fill and count. Calm visual logic.</p>
+          </article>
+
+          <article class="ch-card reveal" style="--d: 160ms">
+            <div class="ch-art ch-art-path" aria-hidden="true">
+              <svg viewBox="0 0 120 80" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+                <path d="M22 20 H62 V44 H38 V62 H98" fill="none" stroke="#4F46E5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+                <circle cx="22" cy="20" r="8" fill="#4F46E5"/><text x="22" y="24" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">1</text>
+                <circle cx="98" cy="62" r="8" fill="#211C16"/><text x="98" y="66" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">2</text>
+              </svg>
+            </div>
+            <h3>Pathfinder</h3>
+            <p>Trace one path that fills the grid and hits the numbers in order. Planning, not luck.</p>
+          </article>
+
+          <article class="ch-card reveal" style="--d: 240ms">
+            <div class="ch-art ch-art-memory" aria-hidden="true">
+              <span class="mtile on"></span><span class="mtile"></span><span class="mtile on"></span>
+              <span class="mtile"></span><span class="mtile on"></span><span class="mtile"></span>
+            </div>
+            <h3>Memory Burst</h3>
+            <p>Watch the tiles light up, then tap them back. A gentle, growing recall challenge.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- ─────────────────────── Why it works ─────────────────── -->
+      <section class="section why">
+        <div class="why-inner">
+          <div class="why-head">
+            <span class="kicker kicker-light">Why it works</span>
+            <h2>A small, mindful pause — then you're in.</h2>
+            <p>Brain Unlock swaps the instant tap-and-scroll for a brief, worthwhile moment of thinking. No streak pressure, no endless game loops — just a calmer way back to the apps you chose to guard.</p>
+          </div>
+          <ul class="why-list">
+            <li>
+              <strong>Replaces the reflex.</strong>
+              A short challenge interrupts autopilot before a protected app opens.
+            </li>
+            <li>
+              <strong>Builds real skills.</strong>
+              Recall, logic, reading and problem-solving — woven into everyday unlocking.
+            </li>
+            <li>
+              <strong>Access on your terms.</strong>
+              Set how many challenges to clear and how long access stays open.
+            </li>
+            <li>
+              <strong>No gamification trap.</strong>
+              Friction stays purposeful and short — it never becomes the thing you do.
+            </li>
           </ul>
+        </div>
+      </section>
+
+      <!-- ─────────────────────── Privacy / trust ──────────────── -->
+      <section class="section section-soft" id="privacy">
+        <div class="trust">
+          <div class="trust-head">
+            <span class="kicker">Privacy &amp; trust</span>
+            <h2>Built for iPhone, built to stay quiet.</h2>
+            <p>Brain Unlock is local-first. The things that make it work live on your device — not on our servers.</p>
+            <div class="trust-links">
+              <a class="btn btn-ghost" href="privacy.html">Privacy Policy</a>
+              <a class="btn btn-ghost" href="support.html">Support</a>
+            </div>
+          </div>
+          <ul class="trust-list">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg> No accounts, no sign-in</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg> No ads, ever</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg> No cross-app tracking or ad identifiers</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg> Challenge summaries &amp; settings stay on device</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg> Apple Screen Time tokens used only to shield apps</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg> RevenueCat only checks your subscription status</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ─────────────────────── Closing CTA ──────────────────── -->
+      <section class="section closing">
+        <img class="closing-icon" src="assets/app-icon.png" alt="" width="76" height="76" />
+        <h2>A calmer relationship with your apps.</h2>
+        <p>Brain Unlock is coming to the App Store. Questions in the meantime?</p>
+        <div class="cta-row cta-center">
+          <a class="btn btn-primary" href="mailto:support@brainunlock.app">Email support</a>
+          <a class="btn btn-ghost" href="privacy.html">Read the privacy policy</a>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <span>© 2026 Brain Unlock. All rights reserved.</span>
-      <span class="footer-links">
-        <a href="https://www.brainunlock.app/privacy.html">Privacy</a>
-        <a href="https://www.brainunlock.app/support.html">Support</a>
-        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms</a>
-      </span>
+    <footer class="footer">
+      <div class="footer-brand">
+        <img src="assets/app-icon.png" alt="" width="26" height="26" />
+        <span>Brain Unlock</span>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms (EULA)</a>
+        <a href="mailto:support@brainunlock.app">Contact</a>
+      </nav>
+      <span class="footer-copy">© 2026 Brain Unlock. All rights reserved.</span>
     </footer>
   </body>
 </html>
